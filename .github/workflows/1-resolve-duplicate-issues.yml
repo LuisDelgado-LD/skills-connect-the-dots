@@ -6,8 +6,8 @@ name: Step 1, Resolve duplicate issues
 # This will run every time we create or edit an issue comment.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 
-#on:
-#  workflow_dispatch:
+on:
+  workflow_dispatch:
 #  issue_comment:
 #    types: [created, edited]
 
