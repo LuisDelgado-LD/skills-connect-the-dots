@@ -19,21 +19,16 @@
         loadSidebar: true,
         relativePath: true,
         // Parte del buscador 
-        search: 'auto', // default
-
-        search: [
-          '/',                      
-          '/doc-references',       
-          '/learning-resources'
-        ],
-    
-        // complete configuration parameters
         search: {
+          depth: 10,
+          noData: 'No encontré nada',
+          placeholder: 'No lo encuentras?',
           maxAge: 86400000, // Expiration time, the default one day
-          paths: [], // or 'auto'
-          placeholder: 'Busca acá',
+          paths: [
+            '/',                      
+          '/doc-references',       
+          '/learning-resources'], // or 'auto'
         },
-          noData: 'No encontré nada!'
       };
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
