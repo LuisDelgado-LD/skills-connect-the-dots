@@ -7,3 +7,6 @@
 
 ## Licencias GitHub
 - [Choose an open source license](https://choosealicense.com/)
+
+## Otros
+- [InnerSource](https://githubtraining.github.io/innersource-theory/#/)
