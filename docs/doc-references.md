@@ -7,6 +7,8 @@
 
 ## Licencias GitHub
 - [Choose an open source license](https://choosealicense.com/)
+### GitHub Student Pack
+- [https://education.github.com/pack](https://education.github.com/pack)
 
 ## Convenciones 
 ### Mensajes de commit
